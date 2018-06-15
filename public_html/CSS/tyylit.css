@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5.4.2018, 20:04:46
+    Author     : Omistaja
+*/
+
+h1 {
+    width: 1120px;
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    transform: rotate(350deg);
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#wrapper {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+canvas {
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+
+#toolbox {
+    width: 1000px;
+    padding: 2px;
+    background-color: #ffffff;
+}
+
+label {
+    width: 75px;
+}
+
+.color {
+    opacity: 3.5;
+    margin: 2px;
+}
+
+#black {
+    background-color: #000000;
+    width: 25px;
+}
+
+#red {
+    background-color: red;
+    width: 25px; 
+}
+
+#green {
+    background-color: green;
+    width: 25px; 
+}
+
+#blue {
+    background-color: blue;
+    width: 25px; 
+}
+#yellow {
+    background-color: yellow;
+    width: 25px; 
+}
+#brown {
+    background-color: brown;
+    width: 25px; 
+}
+#pink {
+    background-color: pink;
+    width: 25px; 
+}
+#purple {
+    background-color: purple;
+    width: 25px; 
+}
+#white {
+    background-color: white;
+    width: 25px; 
+}

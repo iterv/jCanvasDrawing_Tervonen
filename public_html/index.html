@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>fake-Paint</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="CSS/tyylit.css" rel="stylesheet" type="text/css"/>
+        <script src="JS/jquery-3.3.1.js" type="text/javascript"></script>
+        <script src="JS/jCanvas.js" type="text/javascript"></script>
+        <script src="JS/drawing.js" type="text/javascript"></script> 
+        <!-- <script src="JS/drawing2.js" type="text/javascript"></script> -->
+        
+    </head>
+    <body>
+        <div id="wrapper"> 
+            <h1> 
+                <span> Sketching App</span>
+            </h1>
+            <div id="toolbox">
+                <input id="clear" type="button" value="Clear">
+                <input id="undo" type="button" value="Undo">
+                <label>Size:</label>
+                <select class="width">
+                    <option id="width" value="1">1</option>
+                    <option id="width" value="5">2</option>
+                    <option id="width" value="12">3</option>
+                    <option id="width" value="20">4</option>
+                </select>
+                <input class="color" id="black" type="button" value="">
+                <input class="color" id="red" type="button" value="">
+                <input class="color" id="green" type="button" value="">
+                <input class="color" id="blue" type="button" value="">
+                <input class="color" id="yellow" type="button" value="">
+                <input class="color" id="brown" type="button" value="">
+                <input class="color" id="pink" type="button" value="">
+                <input class="color" id="purple" type="button" value="">
+                <input class="color" id="white" type="button" value="">
+                <label id="coordinates">x,y</label>
+
+            </div>
+        
+        
+        <canvas width="1200" height="600"></canvas>
+        </div>
+ 
+    </body>
+</html>
